@@ -260,7 +260,7 @@ body {
 .footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: black;
+  background-color: gray;
 }
 .footer .social img {
   max-width: 40px;
