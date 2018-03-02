@@ -1,0 +1,270 @@
+.main {
+  text-align: center;
+  background-image: url(../img/Untitled-1.png);
+  background-size: cover;
+  height: 100vh;
+}
+.main .socialmedia {
+  margin-top: 20rem;
+}
+.main .socialmedia img {
+  margin-right: 2rem;
+  max-width: 40px;
+}
+.main .logo {
+  padding-top: 3rem;
+}
+.main .phone-number {
+  font-size: 24px;
+  color: white;
+  padding-top: 2.5rem;
+}
+.main .utp {
+  margin-top: 13rem;
+}
+.main h1 {
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+}
+.main p {
+  font-size: 18px;
+  margin-top: 2.5rem;
+  color: white;
+  text-transform: uppercase;
+}
+.main .btn {
+  margin-top: 3rem;
+  border: 1.5px solid #f7941d;
+  border-radius: 8px;
+}
+.main .btn a {
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+.about {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.about .header h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.about .header p {
+  font-size: 30px;
+  color: #f7941d;
+  margin-top: -2.5rem;
+}
+.about .content {
+  font-size: 16px;
+  margin-top: 10rem;
+  margin-bottom: 13rem;
+  text-align: center;
+}
+.about .content p {
+  color: #4c4b4b;
+  line-height: 2;
+}
+.whyus {
+  background-color: #F5F5F5;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+}
+.whyus .header h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.whyus .header p {
+  font-size: 30px;
+  color: #f7941d;
+  margin-top: -2.5rem;
+}
+.whyus .blocks {
+  margin: 5rem 2rem 2rem 2rem;
+}
+.whyus .blocks .h1 {
+  font-size: 19px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.whyus .blocks .p {
+  font-size: 13px;
+  color: #4c4b4b;
+  line-height: 1.5;
+}
+.whyus .blocks img {
+  max-width: 100px;
+}
+.whyus .blocks .row2 {
+  margin-top: 10rem;
+}
+.products {
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+}
+.products .header h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.products .header p {
+  font-size: 30px;
+  color: #f7941d;
+  margin-top: -2.5rem;
+}
+.products .cards {
+  margin-top: 5rem;
+}
+.products .card {
+  min-height: 40rem;
+  max-width: 27rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f9af3b;
+  opacity: 0.7;
+}
+.products .card .maintitle {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: darkorange;
+  opacity: 1;
+}
+.products .card .maintitle p {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.products .card .main-content {
+  min-height: 25rem;
+  text-align: center;
+  color: white;
+}
+.products .card .main-content p {
+  padding-top: 30px;
+  font-size: 11px;
+}
+.products .card .footercard .price {
+  padding-top: 0.8rem;
+  margin-left: 2rem;
+  font-size: 16px;
+  color: white;
+}
+.products .card .footercard .btn p {
+  color: white;
+  font-size: 11px;
+  background-color: darkorange;
+  border-radius: 10px;
+  padding: 0.6rem 1.5rem 0.6rem 1.5rem;
+}
+.feedback {
+  background-color: #F5F5F5;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+}
+.feedback .header h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.feedback .header p {
+  font-size: 30px;
+  color: #f7941d;
+  margin-top: -2.5rem;
+}
+.feedback .fcards {
+  padding-top: 15rem;
+}
+.feedback .fcards .avatar {
+  border-radius: 10px;
+  display: inline-block;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: white;
+}
+.feedback .fcards .avatarbr {
+  border-radius: 10px;
+  border: 1.5px solid darkorange;
+  display: inline-block;
+  padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+}
+.feedback .fcards .fcard {
+  text-align: center;
+}
+.feedback .fcards .fcard .name {
+  padding-top: 2rem;
+  font-size: 12px;
+  font-weight: bold;
+}
+.feedback .fcards .fcard .img {
+  border: 1px solid gray;
+  border-radius: 40px;
+  display: inline-block;
+  padding: 4rem 4rem 4rem 4rem;
+}
+.feedback .fcards .feedbackp {
+  font-size: 14px;
+  background-color: white;
+  margin-left: -8.3rem;
+  margin-right: 4rem;
+  margin-top: 4rem;
+  padding: 1.5rem 1rem 1.5rem 1rem;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.contact {
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+}
+.contact .header h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.contact .header p {
+  font-size: 30px;
+  color: #f7941d;
+  margin-top: -2.5rem;
+}
+.contact .contactmain {
+  margin-top: 5rem;
+}
+.contact .contactmain .contactform input {
+  background-color: lightgray;
+  border: none;
+  outline: 0;
+  padding: 1rem 5rem 1rem 5rem;
+}
+.contact .contactmain .contactform input :focus {
+  outline: 0;
+}
+.contact .contactmain .contactform .second {
+  margin-top: 3rem;
+}
+.contact .contactmain .contactform .btn p {
+  margin-top: 3rem;
+  margin-left: -1rem;
+  color: white;
+  font-size: 11px;
+  background-color: darkorange;
+  border-radius: 10px;
+  padding: 0.6rem 1.5rem 0.6rem 1.5rem;
+}
+.contact .continfo p {
+  color: #4c4b4b;
+  font-size: 20px;
+  margin-bottom: 4rem;
+}
+.footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: black;
+}
+.footer .social img {
+  max-width: 40px;
+}
+.footer img {
+  max-width: 80px;
+}
