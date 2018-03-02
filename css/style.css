@@ -262,9 +262,10 @@ body {
   padding-bottom: 1rem;
   background-color: gray;
 }
+.footer span {
+  display: inline-block;
+  padding-top: 1rem;
+}
 .footer .social img {
   max-width: 40px;
-}
-.footer img {
-  max-width: 80px;
 }
