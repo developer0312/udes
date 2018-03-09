@@ -3,6 +3,7 @@
   background: url(../img/Untitled-1.png) fixed;
   background-size: cover;
   height: 100vh;
+  background-image: linear-gradient(to right, #5118e7, #ffa600);
 }
 .main .socialmedia {
   margin-top: 20rem;
