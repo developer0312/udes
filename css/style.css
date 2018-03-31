@@ -3,7 +3,6 @@
   background: url(../img/Untitled-1.png) fixed;
   background-size: cover;
   height: 100vh;
-  background-image: linear-gradient(to right, #5118e7, #ffa600);
 }
 .main .socialmedia {
   margin-top: 20rem;
@@ -273,4 +272,9 @@ body {
 }
 .footer .social img {
   max-width: 30px;
+}
+@media (max-width: 750px) {
+  .socialmedia {
+    display: none;
+  }
 }
