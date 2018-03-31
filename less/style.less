@@ -237,12 +237,12 @@ body{
     	.feedbackp{
     		font-size: 14px;
     		background-color: white;
-    		margin-left: -8.3rem;
-    		margin-right: 4rem;
     		margin-top: 4rem;
     		padding: 1.5rem 1rem 1.5rem 1rem;
     		border-bottom-right-radius: 10px;
     		border-top-right-radius: 10px;
+    		border-bottom-left-radius: 10px;
+    		border-top-left-radius: 10px;
     	}
     }
 }
@@ -312,9 +312,42 @@ body{
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
-@media (max-width: 750px ) {
+@media ( max-width: 767px ) {
 	.socialmedia{
 		display: none;
-		
+	}
+	.fcard{
+		margin-bottom: 3rem;
+	}
+	body{
+		text-align: center;
+		.card{
+			display: inline-block;
+			min-width: 250px;
+			margin-top: 5rem;
+		}
+		.footer{
+			.social{
+				margin-top: 1rem;
+				margin-bottom: 1rem;
+			}
+		}
+		.whyus{
+			.container{
+				.blocks{
+					.row{
+						.col-lg-12{
+							margin-bottom: -10rem;
+							.block{
+								margin-bottom: 10rem;
+							}
+						}
+					}
+				}
+			}
+		}
+		.continfo{
+			margin-top: 3rem;
+		}
 	}
 }
